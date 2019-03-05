@@ -8,7 +8,7 @@ description = "Simple (pseudo-) async wrappers around Read and Write"
 repository = "https://github.com/sbillig/pseudo-async-io"
 documentation = "https://docs.rs/pseudo-async-io/"
 readme = "README.md"
-keywords = ["AsyncRead", "AsyncWrite", "Read", "Write", "futures", "io"]
+keywords = ["AsyncRead", "AsyncWrite", "Read", "Write", "futures"]
 
 [dependencies]
 futures-preview = "0.3.0-alpha.13"
