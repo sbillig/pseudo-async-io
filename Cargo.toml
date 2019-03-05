@@ -1,0 +1,14 @@
+[package]
+name = "pseudo-async-io"
+version = "0.1.0"
+authors = ["sean billig <sean.billig@gmail.com>"]
+edition = "2018"
+license = "MIT OR Apache-2.0"
+description = "Simple (pseudo-) async wrappers around Read and Write"
+repository = "https://github.com/sbillig/pseudo-async-io"
+documentation = "https://docs.rs/pseudo-async-io/"
+readme = "README.md"
+keywords = ["AsyncRead", "AsyncWrite", "Read", "Write", "futures", "io"]
+
+[dependencies]
+futures-preview = "0.3.0-alpha.13"
