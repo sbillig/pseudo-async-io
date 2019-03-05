@@ -1,9 +1,9 @@
 # pseudo-async-io
-Simple (pseudo-)AsyncRead/AsyncWrite wrappers around the Read and Write traits.
+Simple pseudo-async AsyncRead/AsyncWrite wrappers around the Read and Write traits.
 
-For futures-0.3; Requires nightly rust.
+For futures-0.3; requires nightly rust.
 
-```
+```rust
 #![feature(async_await, await_macro, futures_api)]
 
 use std::io::Cursor;
